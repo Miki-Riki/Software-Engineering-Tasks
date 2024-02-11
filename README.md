@@ -76,3 +76,17 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
   <li>Use a tool like <b>Postman</b> or <b>cURL</b> to make a POST request to the <b>detect_unauthorized_sales</b> endpoint with JSON data containing <b>productListings</b> and <b>salesTransactions</b>.</li>
   <li>The server will respond with JSON data containing the unauthorized sales.</li>
 </ol>
+<br>
+<b><h2>Interview Scheduler API</h2></b>
+This repository contains code for an **`Express.js`** API to calculate the maximum number of non-overlapping interviews based on given start and end times.
+
+Approach
+The approach used in this API is to sort the interviews based on their end times and then iterate through them to find the maximum number of non-overlapping interviews. During iteration, if the start time of the current interview is after the end time of the last interview, it is considered non-overlapping, and the count is incremented. This process continues until all interviews are processed.
+
+Assumptions
+Input Validity: It is assumed that the input data provided for start times and end times are arrays of equal length, representing the start and end times of each interview respectively.
+
+Time Format: The code assumes that the start and end times are in a format that allows comparison (e.g., UNIX timestamps or ISO 8601 strings).
+
+Running the Code
+To run this code, follow these steps:
