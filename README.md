@@ -45,9 +45,9 @@ Open your web browser and navigate to **`http://localhost:3000`** to view the ma
 
 **<h3>Dependencies</h3>**
   <li>OpenLayers: JavaScript library for displaying map data in web browsers.</li>
-<li>Node.js: JavaScript runtime environment for executing JavaScript code outside a web browser.</li>
+  <li>Node.js: JavaScript runtime environment for executing JavaScript code outside a web browser.</li>
 
 **<h3>Additional Notes</h3>**
-<li>The code is written using modern JavaScript syntax (ES6+).</li>
-<li>Error handling is implemented to handle network errors and invalid data formats.</li>
-<li>For more information on OpenLayers, refer to the official documentation.</li>
+  <li>The code is written using modern JavaScript syntax (ES6+).</li>
+  <li>Error handling is implemented to handle network errors and invalid data formats.</li>
+  <li>For more information on OpenLayers, refer to the official documentation.</li>
