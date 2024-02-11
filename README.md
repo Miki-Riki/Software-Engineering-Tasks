@@ -78,15 +78,20 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
 </ol>
 <br>
 <b><h2>Interview Scheduler API</h2></b>
-This repository contains code for an <b>`Express.js`</b> API to calculate the maximum number of non-overlapping interviews based on given start and end times.
+This repository contains code for an <b>Express.js</b> API to calculate the maximum number of non-overlapping interviews based on given start and end times.
 
-Approach
+<h3>Approach</h3>
 The approach used in this API is to sort the interviews based on their end times and then iterate through them to find the maximum number of non-overlapping interviews. During iteration, if the start time of the current interview is after the end time of the last interview, it is considered non-overlapping, and the count is incremented. This process continues until all interviews are processed.
 
-Assumptions
-Input Validity: It is assumed that the input data provided for start times and end times are arrays of equal length, representing the start and end times of each interview respectively.
+<h3>Assumptions</h3>
+<ol type="1">
+  <li><b>Input Validity:</b> It is assumed that the input data provided for start times and end times are arrays of equal length, representing the start and end times of each interview respectively.</li>
+  <li><b>Time Format:</b> The code assumes that the start and end times are in a format that allows comparison (e.g., UNIX timestamps or ISO 8601 strings).</li>
+</ol>
 
-Time Format: The code assumes that the start and end times are in a format that allows comparison (e.g., UNIX timestamps or ISO 8601 strings).
-
-Running the Code
+<h3>Steps to Run the Code</h3>
 To run this code, follow these steps:
+Install Dependencies: Ensure you have Node.js installed on your system. Then, navigate to the project directory in the terminal and run:
+```
+npm install
+```
