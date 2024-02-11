@@ -72,7 +72,7 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
   <li>Navigate to the project directory in your terminal.</li>
   <li>Install the required dependencies by running the command: <b>npm install</b></li>
    <li>Start the server by running the command: <b>node app.js</b></li>
-  <li>The server will start running on port <b>3000</b> by default.</li>
+  <li>The server will start running on <b>PORT 3000</b> by default.</li>
   <li>Use a tool like <b>Postman</b> or <b>cURL</b> to make a POST request to the <b>detect_unauthorized_sales</b> endpoint with JSON data containing <b>productListings</b> and <b>salesTransactions</b>.</li>
   <li></li>
 </ol>
