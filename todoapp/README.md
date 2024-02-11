@@ -7,7 +7,7 @@ The approach used in this API is to sort the interviews based on their end times
 <h3>Assumptions</h3>
 <ol type="1">
   <li><b>Input Validity:</b> It is assumed that the input data provided for start times and end times are arrays of equal length, representing the start and end times of each interview respectively.</li>
-  <li><b>Time Format:</b> The code assumes that the start and end times are in a format that allows comparison (e.g., UNIX timestamps or ISO 8601 strings).</li>
+  <li><b>Time Format:</b> The code assumes that the start and end times are in a format that allows comparison (e.g., <b>UNIX timestamps or ISO 8601 strings</b>).</li>
 </ol>
 
 <h3>Steps to Run the Code</h3>
@@ -25,7 +25,7 @@ npm install
 ```
 node app.js
 ```
-**Send Requests:** You can now send POST requests to the **`calculateMaxInterviews`** endpoint with JSON data containing the start_times and end_times arrays.
+**Send Requests:** You can now send POST requests to the **`calculateMaxInterviews`** endpoint with JSON data containing the **`start_times`** and **`end_times`** arrays.
 
 **Receive Response:** The server will respond with the maximum number of non-overlapping interviews in JSON format.
 
