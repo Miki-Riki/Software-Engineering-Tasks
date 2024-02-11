@@ -20,6 +20,6 @@ This project demonstrates how to display a polygon on a map using JavaScript and
 
 **<h3>Assumptions</h3>**
 
-The JSON file **(`polygon.json`)** contains valid polygon coordinates in GeoJSON format.
+The JSON file **`polygon.json`** contains valid polygon coordinates in GeoJSON format.
 The JSON data structure is well-defined with a **`polygon`** property containing an array of coordinates.
 The map is initialized with default settings such as center coordinates **`[0, 0]`** and zoom level **`2`**.
