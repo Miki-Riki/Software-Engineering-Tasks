@@ -110,5 +110,5 @@ node app.js
 
 <h3>Notes</h3>
 
-The server is configured to run on port **3000** by default. You can change this port by modifying the port variable in **`app.js`**.
+The server is configured to run on **PORT 3000** by default. You can change this port by modifying the port variable in **`app.js`**.
 Ensure that the input data provided follows the specified format and assumptions to receive accurate results.
