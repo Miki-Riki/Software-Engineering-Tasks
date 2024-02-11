@@ -25,8 +25,21 @@ The JSON data structure is well-defined with a **`polygon`** property containing
 The map is initialized with default settings such as center coordinates **`[0, 0]`** and zoom level **`2`**.
 
 **<h2>Steps to Run the Code</h2>**
+Clone this repository to your local machine.
 ```
 https://github.com/Miki-Riki/Software-Engineering-Tasks.git
+```
+Navigate to the project directory.
+```
+cd polygon-map
+```
+Install dependencies using npm.
+```
+npm install
+```
+Place your polygon.json file containing polygon coordinates in the root directory of the project.
+```
+npm start
 ```
 
 
