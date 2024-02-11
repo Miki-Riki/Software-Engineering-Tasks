@@ -56,7 +56,7 @@ Open your web browser and navigate to **`http://localhost:3000`** to view the ma
 <b><h2>Unauthorized Sales Detection</h2></b>
 
 **<h3>Approach</h3>**
-This project is a simple **`Node.js`** application built with **`Express.js`** framework that detects unauthorized sales based on provided product listings and sales transactions. The application listens for POST requests on the '/detect_unauthorized_sales' endpoint. It expects JSON data in the request body containing two arrays: 'productListings' and 'salesTransactions'. It then iterates over the sales transactions and checks if the seller is authorized to sell the corresponding product based on the provided listings. If not, it adds the unauthorized sale to the 'unauthorizedSales' array. Finally, it sends a JSON response containing the unauthorized sales.
+This project is a simple **`Node.js`** application built with **`Express.js`** framework that detects unauthorized sales based on provided product listings and sales transactions. The application listens for POST requests on the **`/detect_unauthorized_sales`** endpoint. It expects JSON data in the request body containing two arrays: **'productListings'** and **'salesTransactions'**. It then iterates over the sales transactions and checks if the seller is authorized to sell the corresponding product based on the provided listings. If not, it adds the unauthorized sale to the 'unauthorizedSales' array. Finally, it sends a JSON response containing the unauthorized sales.
 
 ## Assumptions
 
