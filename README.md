@@ -25,19 +25,10 @@ The JSON data structure is well-defined with a **`polygon`** property containing
 The map is initialized with default settings such as center coordinates **`[0, 0]`** and zoom level **`2`**.
 
 **<h2>Steps to Run the Code</h2>**
-
-<button id="clone-button" onclick="copyGitCloneCommand()">Copy Git Clone Command</button>
-<script>
-  <script>
-function copyGitCloneCommand() {
-    const gitCloneCommand = 'git clone https://github.com/yourusername/polygon-display.git';
-    navigator.clipboard.writeText(gitCloneCommand).then(() => {
-        alert('Git clone command copied to clipboard!');
-    }).catch(err => {
-        console.error('Failed to copy Git clone command: ', err);
-    });
+```
+function test() {
+  console.log("This code will have a copy button to the right of it");
 }
-</script>
-
-</script>
+```
+git clone https://github.com/yourusername/polygon-display.git
 
