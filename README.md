@@ -26,4 +26,18 @@ The map is initialized with default settings such as center coordinates **`[0, 0
 
 **<h2>Steps to Run the Code</h2>**
 
-`git clone https://github.com/yourusername/polygon-display.git`
+<button id="clone-button" onclick="copyGitCloneCommand()">Copy Git Clone Command</button>
+<script>
+  <script>
+function copyGitCloneCommand() {
+    const gitCloneCommand = 'git clone https://github.com/yourusername/polygon-display.git';
+    navigator.clipboard.writeText(gitCloneCommand).then(() => {
+        alert('Git clone command copied to clipboard!');
+    }).catch(err => {
+        console.error('Failed to copy Git clone command: ', err);
+    });
+}
+</script>
+
+</script>
+
