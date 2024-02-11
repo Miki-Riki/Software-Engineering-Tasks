@@ -24,7 +24,7 @@ The JSON file **`polygon.json`** contains valid polygon coordinates in GeoJSON f
 The JSON data structure is well-defined with a **`polygon`** property containing an array of coordinates.
 The map is initialized with default settings such as center coordinates **`[0, 0]`** and zoom level **`2`**.
 
-**<h2>Steps to Run the Code</h2>**
+**<h3>Steps to Run the Code</h3>**
 Clone this repository to your local machine.
 ```
 https://github.com/Miki-Riki/Software-Engineering-Tasks.git
