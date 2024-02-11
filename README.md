@@ -50,7 +50,7 @@ Open your web browser and navigate to **`http://localhost:3000`** to view the ma
 <ul>
   <li>The code is written using modern JavaScript syntax (ES6+).</li>
   <li>Error handling is implemented to handle network errors and invalid data formats.</li>
-  <li>For more information on OpenLayers, refer to the <a href="https://openlayers.org/">official documentation.</li>
+  <li>For more information on OpenLayers, refer to the <a href="https://openlayers.org/">official documentation</a>.</li>
 </ul>
 <br>
 <b><h2>Unauthorized Sales Detection</h2></b>
@@ -67,7 +67,7 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
 
 <h3>Steps to Run the Code</h3>
 <ol type="1">
-  <li>Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from <a href="https://nodejs.org/" target="_blank">href=https://nodejs.org/</a>.</li>
+  <li>Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from <a href="https://nodejs.org/">href=https://nodejs.org/</a>.</li>
   <li>Clone this repository to your local machine.</li>
   <li>Navigate to the project directory in your terminal.</li>
   <li>Install the required dependencies by running the command: <b>npm install</b></li>
