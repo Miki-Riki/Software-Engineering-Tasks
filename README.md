@@ -104,3 +104,11 @@ npm install
 ```
 node app.js
 ```
+**Send Requests:** You can now send POST requests to the **`calculateMaxInterviews`** endpoint with JSON data containing the start_times and end_times arrays.
+
+**Receive Response:** The server will respond with the maximum number of non-overlapping interviews in JSON format.
+
+<h3>Notes</h3>
+
+The server is configured to run on port **3000** by default. You can change this port by modifying the port variable in **`app.js`**.
+Ensure that the input data provided follows the specified format and assumptions to receive accurate results.
