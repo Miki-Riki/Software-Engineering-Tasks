@@ -2,11 +2,11 @@
 
 **<h2>Polygon Display on Map</h2>**
 
-**Overview**
+**<h3>Overview</h3>**
 
 This project demonstrates how to display a polygon on a map using JavaScript and the OpenLayers library. The polygon coordinates are provided in a JSON file, and the code fetches and parses these coordinates to create a polygon feature displayed on an interactive map.
 
-**Approach**
+**<h3>Approach</h3>**
 
 1. **Fetching Data:** The code fetches the JSON file containing polygon coordinates using the Fetch API.
 
@@ -17,3 +17,9 @@ This project demonstrates how to display a polygon on a map using JavaScript and
 4. **Setting up the Map:** The polygon feature is added to a vector layer, which is then added to the map along with an OpenStreetMap base layer. Map controls, such as a zoom slider, are also added.
 
 5. **View Configuration:** The map view is configured to fit the extent of the polygon feature.
+
+**<h3>Assumptions</h3>**
+
+The JSON file ```(polygon.json)``` contains valid polygon coordinates in GeoJSON format.
+The JSON data structure is well-defined with a **`polygon`** property containing an array of coordinates.
+The map is initialized with default settings such as center coordinates **`[0, 0]`** and zoom level **`2`**.
