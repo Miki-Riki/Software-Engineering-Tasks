@@ -41,5 +41,12 @@ Place your polygon.json file containing polygon coordinates in the root director
 ```
 npm start
 ```
+Open your web browser and navigate to **`http://localhost:3000`** to view the map with the displayed polygon.
 
-
+**<h2>Dependencies</h2>**
+OpenLayers: JavaScript library for displaying map data in web browsers.
+Node.js: JavaScript runtime environment for executing JavaScript code outside a web browser.
+Additional Notes
+The code is written using modern JavaScript syntax (ES6+).
+Error handling is implemented to handle network errors and invalid data formats.
+For more information on OpenLayers, refer to the official documentation.
