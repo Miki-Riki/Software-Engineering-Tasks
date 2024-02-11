@@ -5,8 +5,8 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
 
 **<h3>Assumptions</h3>**
   - The incoming data will be in JSON format.
-  - Each product in the 'productListings' array will have a unique **productID**.
-  - Each sale in the 'salesTransactions' array will have a **productID** and a **sellerID**.
+  - Each product in the **productListings** array will have a unique **productID**.
+  - Each sale in the **salesTransactions** array will have a **productID** and a **sellerID**.
   - There is no authentication or authorization mechanism implemented in this code snippet.
   - Error handling for invalid or missing data is not implemented for brevity.
 
