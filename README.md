@@ -7,7 +7,7 @@
 This project demonstrates how to display a polygon on a map using JavaScript and the OpenLayers library. The polygon coordinates are provided in a JSON file, and the code fetches and parses these coordinates to create a polygon feature displayed on an interactive map.
 
 **<h3>Approach</h3>**
-<ol type="1">
+<ol type="1" style="text-align: justify;">
   <li><b>Fetching Data:</b> The code fetches the JSON file containing polygon coordinates using the Fetch API.</li>
   <li><b>Parsing Data:</b> After fetching the JSON data, it is parsed to extract the polygon coordinates.</li>
   <li><b>Creating Polygon Feature:</b> The extracted coordinates are used to create a polygon feature using the OpenLayers library.</li>
