@@ -26,7 +26,7 @@ The map is initialized with default settings such as center coordinates **`[0, 0
 
 **<h2>Steps to Run the Code</h2>**
 ```
-git clone https://github.com/miki-riki/polygon-map.git](https://github.com/Miki-Riki/Software-Engineering-Tasks.git)https://github.com/Miki-Riki/Software-Engineering-Tasks.git
+https://github.com/Miki-Riki/Software-Engineering-Tasks.git
 ```
 
 
