@@ -52,3 +52,24 @@ Open your web browser and navigate to **`http://localhost:3000`** to view the ma
   <li>Error handling is implemented to handle network errors and invalid data formats.</li>
   <li>For more information on OpenLayers, refer to the <a href="https://openlayers.org/">official documentation.</li>
 </ul>
+
+**<h2>Unauthorized Sales Detection</h2>**
+
+**<h3>Approach</h3>**
+This project is a simple Node.js application built with Express.js framework that detects unauthorized sales based on provided product listings and sales transactions. The application listens for POST requests on the '/detect_unauthorized_sales' endpoint. It expects JSON data in the request body containing two arrays: 'productListings' and 'salesTransactions'. It then iterates over the sales transactions and checks if the seller is authorized to sell the corresponding product based on the provided listings. If not, it adds the unauthorized sale to the 'unauthorizedSales' array. Finally, it sends a JSON response containing the unauthorized sales.
+
+## Assumptions
+
+- The incoming data will be in JSON format.
+- Each product in the 'productListings' array will have a unique 'productID'.
+- Each sale in the 'salesTransactions' array will have a 'productID' and a 'sellerID'.
+- There is no authentication or authorization mechanism implemented in this code snippet.
+- Error handling for invalid or missing data is not implemented for brevity.
+
+## Steps to Run the Code
+
+1. Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from https://nodejs.org/.
+2. Clone this repository to your local machine.
+3. Navigate to the project directory in your terminal.
+4. Install the required dependencies by running the command:
+
