@@ -67,7 +67,7 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
 
 <h3>Steps to Run the Code</h3>
 <ol type="1">
-  <li>Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from <a href="https://nodejs.org/">href=https://nodejs.org/</a>.</li>
+  <li>Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from <a href="https://nodejs.org/" target="_blank">https://nodejs.org/</a>.</li>
   <li>Clone this repository to your local machine.</li>
   <li>Navigate to the project directory in your terminal.</li>
   <li>Install the required dependencies by running the command: <b>npm install</b></li>
