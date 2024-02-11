@@ -72,5 +72,5 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
   <li>Navigate to the project directory in your terminal.</li>
   <li>Install the required dependencies by running the command:</li>
 </ol>
-<b>`npm install`</b>
+**`npm install`**
 
