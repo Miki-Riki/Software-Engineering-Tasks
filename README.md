@@ -65,8 +65,7 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
   - There is no authentication or authorization mechanism implemented in this code snippet.
   - Error handling for invalid or missing data is not implemented for brevity.
 
-## Steps to Run the Code
-
+<h3>Steps to Run the Code</h3>
 1. Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from https://nodejs.org/.
 2. Clone this repository to your local machine.
 3. Navigate to the project directory in your terminal.
