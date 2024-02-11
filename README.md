@@ -52,8 +52,8 @@ Open your web browser and navigate to **`http://localhost:3000`** to view the ma
   <li>Error handling is implemented to handle network errors and invalid data formats.</li>
   <li>For more information on OpenLayers, refer to the <a href="https://openlayers.org/">official documentation.</li>
 </ul>
-
-
+<br>
+<br>
 **<h2>Unauthorized Sales Detection</h2>**
 
 **<h3>Approach</h3>**
