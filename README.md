@@ -53,5 +53,5 @@ Open your web browser and navigate to **`http://localhost:3000`** to view the ma
 <ul>
   <li>The code is written using modern JavaScript syntax (ES6+).</li>
   <li>Error handling is implemented to handle network errors and invalid data formats.</li>
-  <li>For more information on OpenLayers, refer to the <a href="https://openlayers.org/" target="_blank">official documentation.</li>
+  <li>For more information on OpenLayers, refer to the <a href="https://openlayers.org/">official documentation.</li>
 </ul>
