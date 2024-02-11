@@ -66,8 +66,10 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
   - Error handling for invalid or missing data is not implemented for brevity.
 
 <h3>Steps to Run the Code</h3>
-1. Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from https://nodejs.org/.
-2. Clone this repository to your local machine.
-3. Navigate to the project directory in your terminal.
-4. Install the required dependencies by running the command:
+<ol type="1">
+  <li>Make sure you have Node.js and npm (Node Package Manager) installed on your system. You can download and install them from https://nodejs.org/.</li>
+  <li>Clone this repository to your local machine.</li>
+  <li>Navigate to the project directory in your terminal.</li>
+  <li>Install the required dependencies by running the command: ```npm install```</li>
+</ol>
 
