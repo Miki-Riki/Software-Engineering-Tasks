@@ -1,0 +1,14 @@
+{
+    "productListings": [
+        {
+            "productID": "123",
+            "authorizedSellerID": "A1"
+        }
+    ],
+    "salesTransactions": [
+        {
+            "productID": "123",
+            "sellerID": "B2"
+        }
+    ]
+}
