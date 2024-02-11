@@ -43,8 +43,8 @@ npm start
 ```
 Open your web browser and navigate to **`http://localhost:3000`** to view the map with the displayed polygon.
 
-**<h2>Dependencies</h2>**
-OpenLayers: JavaScript library for displaying map data in web browsers.
+**<h3>Dependencies</h3>**
+<li>OpenLayers: JavaScript library for displaying map data in web browsers.</li>
 Node.js: JavaScript runtime environment for executing JavaScript code outside a web browser.
 Additional Notes
 The code is written using modern JavaScript syntax (ES6+).
