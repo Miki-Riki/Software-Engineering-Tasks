@@ -7,7 +7,7 @@ The approach used in this API is to sort the interviews based on their end times
 <h3>Assumptions</h3>
 <ol type="1">
   <li><b>Input Validity:</b> It is assumed that the input data provided for start times and end times are arrays of equal length, representing the start and end times of each interview respectively.</li>
-  <li><b>Time Format:</b> The code assumes that the start and end times are in a format that allows comparison (e.g., <b>UNIX timestamps</b> or <b>ISO 8601 strings</b>).</li>
+  <li><b>Time Format:</b> The code assumes that the start and end times are in a format that allows comparison (e.g., <b>UNIX timestamps</b> or <b>ISO 8601</b> strings).</li>
 </ol>
 
 <h3>Steps to Run the Code</h3>
