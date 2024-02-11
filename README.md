@@ -74,5 +74,5 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
    <li>Start the server by running the command: <b>node app.js</b></li>
   <li>The server will start running on <b>PORT 3000</b> by default.</li>
   <li>Use a tool like <b>Postman</b> or <b>cURL</b> to make a POST request to the <b>detect_unauthorized_sales</b> endpoint with JSON data containing <b>productListings</b> and <b>salesTransactions</b>.</li>
-  <li></li>
+  <li>The server will respond with JSON data containing the unauthorized sales.</li>
 </ol>
