@@ -94,7 +94,7 @@ To run this code, follow these steps:
 <br>
 <br>
 <b>Install Dependencies:</b> Ensure you have Node.js installed on your system. Then, navigate to the project directory in the terminal and run:
-
+<br>
 ```
 npm install
 ```
