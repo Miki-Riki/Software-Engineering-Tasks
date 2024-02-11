@@ -91,8 +91,12 @@ The approach used in this API is to sort the interviews based on their end times
 
 <h3>Steps to Run the Code</h3>
 To run this code, follow these steps:
-Install Dependencies: Ensure you have Node.js installed on your system. Then, navigate to the project directory in the terminal and run:
+<b>Install Dependencies:</b> Ensure you have Node.js installed on your system. Then, navigate to the project directory in the terminal and run:
 
 ```
 npm install
+```
+**Run the Server:** After installing dependencies, start the Express server by running:
+```
+node app.js
 ```
