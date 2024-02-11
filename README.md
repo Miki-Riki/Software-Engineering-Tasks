@@ -71,6 +71,6 @@ This project is a simple **`Node.js`** application built with **`Express.js`** f
   <li>Clone this repository to your local machine.</li>
   <li>Navigate to the project directory in your terminal.</li>
   <li>Install the required dependencies by running the command:</li>
-  ```npm install```
 </ol>
+```npm install```
 
