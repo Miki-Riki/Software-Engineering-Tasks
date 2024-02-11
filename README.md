@@ -56,15 +56,14 @@ Open your web browser and navigate to **`http://localhost:3000`** to view the ma
 <b><h2>Unauthorized Sales Detection</h2></b>
 
 **<h3>Approach</h3>**
-This project is a simple **`Node.js`** application built with **`Express.js`** framework that detects unauthorized sales based on provided product listings and sales transactions. The application listens for POST requests on the **`/detect_unauthorized_sales`** endpoint. It expects JSON data in the request body containing two arrays: **'productListings'** and **'salesTransactions'**. It then iterates over the sales transactions and checks if the seller is authorized to sell the corresponding product based on the provided listings. If not, it adds the unauthorized sale to the 'unauthorizedSales' array. Finally, it sends a JSON response containing the unauthorized sales.
+This project is a simple **`Node.js`** application built with **`Express.js`** framework that detects unauthorized sales based on provided product listings and sales transactions. The application listens for POST requests on the **`detect_unauthorized_sales`** endpoint. It expects JSON data in the request body containing two arrays: **`productListings`** and **`salesTransactions`**. It then iterates over the sales transactions and checks if the seller is authorized to sell the corresponding product based on the provided listings. If not, it adds the unauthorized sale to the **`unauthorizedSales`** array.
 
-## Assumptions
-
-- The incoming data will be in JSON format.
-- Each product in the 'productListings' array will have a unique 'productID'.
-- Each sale in the 'salesTransactions' array will have a 'productID' and a 'sellerID'.
-- There is no authentication or authorization mechanism implemented in this code snippet.
-- Error handling for invalid or missing data is not implemented for brevity.
+**<h3>Assumptions</h3>**
+  - The incoming data will be in JSON format.
+  - Each product in the 'productListings' array will have a unique 'productID'.
+  - Each sale in the 'salesTransactions' array will have a 'productID' and a 'sellerID'.
+  - There is no authentication or authorization mechanism implemented in this code snippet.
+  - Error handling for invalid or missing data is not implemented for brevity.
 
 ## Steps to Run the Code
 
