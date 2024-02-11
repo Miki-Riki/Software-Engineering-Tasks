@@ -8,7 +8,7 @@ This project demonstrates how to display a polygon on a map using JavaScript and
 
 **<h3>Approach</h3>**
 <ol type="1">
-  <li>**Fetching Data:**The code fetches the JSON file containing polygon coordinates using the Fetch API.</li>
+  <li><b>Fetching Data:</b>The code fetches the JSON file containing polygon coordinates using the Fetch API.</li>
   <li>**Parsing Data: After fetching the JSON data, it is parsed to extract the polygon coordinates.</li>
   <li>Creating Polygon Feature: The extracted coordinates are used to create a polygon feature using the OpenLayers library.</li>
   <li>Setting up the Map: The polygon feature is added to a vector layer, which is then added to the map along with an OpenStreetMap base layer. Map controls, such as a zoom slider, are also added.</li>
