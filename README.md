@@ -26,9 +26,7 @@ The map is initialized with default settings such as center coordinates **`[0, 0
 
 **<h2>Steps to Run the Code</h2>**
 ```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
-```
 git clone https://github.com/yourusername/polygon-display.git
+```
+
 
